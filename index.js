@@ -16,3 +16,22 @@ while( guessNumberGame != gameNum){
 
 
 console.log("Congratulations you entered a right number");
+
+// EXERCISE 3: Calculate the sum of even numbers in the array 
+
+
+function sumEvenNumbers (arr){
+
+    let sum = 0;
+    for(let i = 0; i<arr.length ; i++){
+    if(arr [i]% 2 == 0){
+
+        sum += sum + arr[i];
+    }
+    }
+ return sum;
+}
+let number =[1,2,3,4,5,6,7,8,9,10];
+
+console.log(sumEvenNumbers(number));
+
